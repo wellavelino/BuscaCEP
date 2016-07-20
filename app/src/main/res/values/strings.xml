@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">BuscaCEP</string>
+  <string name="address">%1$s \n%2$s %3$s\n%4$s\n%5$s - %6$s</string>
+</resources>
