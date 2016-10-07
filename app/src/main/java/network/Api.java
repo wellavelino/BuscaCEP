@@ -37,7 +37,9 @@ public class Api {
     userResponsePage.enqueue(new Callback<Address>() {
       @Override
       public void onResponse(Call<Address> call, Response<Address> response) {
-        callBack.onSuccess(response.body());
+          if (response.body() != null) {
+              callBack.onSuccess(response.body());
+          }
       }
 
       @Override
